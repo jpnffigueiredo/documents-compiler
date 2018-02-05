@@ -1,0 +1,10 @@
+target/
+.idea
+.DS_Store
+*.iml
+.project
+.sass-cache/
+.settings
+.classpath
+.recommenders
+*.iml

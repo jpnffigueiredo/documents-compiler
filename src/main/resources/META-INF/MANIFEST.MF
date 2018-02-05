@@ -1,0 +1,4 @@
+DocumentsCompiler-Revision: a1b2c3e
+DocumentsCompiler-Version: 1.0
+DocumentsCompiler-Date: ${timestamp}
+
