@@ -1,11 +1,22 @@
 
-**ATTENTION**: This is an experiment to create an application using [takes framework](https://github.com/yegor256/takes)!!!!
+**ATTENTION**: This is an experiment to create an application using 
+[takes framework](https://github.com/yegor256/takes) and trying to apply OOP 
+ideas from [Yegor Bugayenko](http://www.yegor256.com/)!!!!
 
-## What does it do?
+**What does it do?**.
 
 Compile uploaded LaTeX document to pdf.
 
-## License
+**How to use**.
+
+* Do POST request to <url>/compile/latext using only one file at a time
+
+Example:
+```
+curl -v -F 'doc=@file.tex' <url>/compile/latex > result.pdf
+```
+
+**License**
 
 (The MIT License)
 
