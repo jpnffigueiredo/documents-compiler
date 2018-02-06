@@ -45,7 +45,7 @@ public final class LatexTest {
     /**
      * Latex can render pdf.
      *
-     * @throws IOException If some problem inside
+     * @throws IOException If some problem found
      */
     @Test
     public void renders() throws IOException {
@@ -61,6 +61,16 @@ public final class LatexTest {
             new LengthOf(document).intValue(),
             Matchers.greaterThan(0)
         );
+    }
+
+    /**
+     * Latex can not render empty documents.
+     *
+     * @throws IOException If some problem found
+     */
+    @Test(expected = IOException.class)
+    public void throwsExceptionForEmptyDocument() throws IOException {
+        new Latex("").pdf();
     }
 
 }

@@ -73,7 +73,9 @@ public final class Latex {
         final File dir = Files.createTempDir();
         final File doc = new File(dir, "document.tex");
         try {
-            new LengthOf(new TeeInput(this.source, doc)).intValue();
+            if (new LengthOf(new TeeInput(this.source, doc)).intValue() == 0) {
+                throw new IOException("Found empty document");
+            }
             Latex.compile(dir, doc.getName());
             return new InputOf(
                 java.nio.file.Files.newInputStream(
