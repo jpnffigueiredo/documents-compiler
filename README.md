@@ -1,15 +1,16 @@
 
-**ATTENTION**: This is an experiment to create an application using 
+**ATTENTION**: This is an _experiment_ to create an application using 
 [takes framework](https://github.com/yegor256/takes) and trying to apply OOP 
-ideas from [Yegor Bugayenko](http://www.yegor256.com/)!!!!
+ideas from [Yegor Bugayenko](http://www.yegor256.com/).
 
 **What does it do?**.
 
-Compile uploaded LaTeX document to pdf.
+Expose a service used to compile uploaded LaTeX documents to pdf.
 
 **How to use**.
 
-* Do POST request to <url>/compile/latext using only one file at a time
+* Do POST request to &lt;url&gt;/compile/latext 
+* Use only one file at a time
 
 Example:
 ```
