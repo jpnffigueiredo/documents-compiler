@@ -36,7 +36,6 @@
     <packaging>jar</packaging>
     <name>dcomp</name>
     <description>dcomp</description>
-    <url></url>
     <inceptionYear>2018</inceptionYear>
     <organization>
         <name>Documents Compiler</name>
