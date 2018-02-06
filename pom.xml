@@ -30,12 +30,12 @@
         <artifactId>parent</artifactId>
         <version>0.48.5</version>
     </parent>
-    <groupId>com.docomp</groupId>
-    <artifactId>web</artifactId>
+    <groupId>com.dcomp</groupId>
+    <artifactId>dcomp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>docomp</name>
-    <description>docomp</description>
+    <name>dcomp</name>
+    <description>dcomp</description>
     <url></url>
     <inceptionYear>2018</inceptionYear>
     <organization>
