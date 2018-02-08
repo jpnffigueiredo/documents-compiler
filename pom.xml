@@ -32,7 +32,7 @@
     </parent>
     <groupId>com.dcomp</groupId>
     <artifactId>dcomp</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>dcomp</name>
     <description>dcomp</description>
