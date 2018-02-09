@@ -1,4 +1,5 @@
 
+[![Build Status](https://travis-ci.org/jpnffigueiredo/documents-compiler.svg?branch=master)](https://travis-ci.org/jpnffigueiredo/documents-compiler)
 [![PDD status](http://www.0pdd.com/svg?name=jpnffigueiredo/documents-compiler)](http://www.0pdd.com/p?name=jpnffigueiredo/documents-compiler)
 
 **ATTENTION**: This is an _experiment_ to create an application using 
