@@ -1,5 +1,5 @@
 language: java
-sudo: false
+sudo: true
 cache:
   directories:
     - $HOME/.m2
@@ -11,7 +11,7 @@ script:
 before_install:
   - rvm install 2.2.2
   - rvm use 2.2.2
-  - apt-get install texlive-latex-extra
+  - sudo apt-get install texlive-latex-extra
 install:
   - gem install pdd
 env:
