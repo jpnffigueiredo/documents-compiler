@@ -11,6 +11,7 @@ script:
 before_install:
   - rvm install 2.2.2
   - rvm use 2.2.2
+  - apt-get install texlive-latex-extra
 install:
   - gem install pdd
 env:
