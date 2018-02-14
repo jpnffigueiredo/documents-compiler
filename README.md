@@ -4,8 +4,8 @@
 [![Build Status](https://travis-ci.org/jpnffigueiredo/documents-compiler.svg?branch=master)](https://travis-ci.org/jpnffigueiredo/documents-compiler)
 [![PDD status](http://www.0pdd.com/svg?name=jpnffigueiredo/documents-compiler)](http://www.0pdd.com/p?name=jpnffigueiredo/documents-compiler)
 
-**ATTENTION**: This is an _experiment_ to create an application using 
-[takes framework](https://github.com/yegor256/takes) and trying to apply OOP 
+**ATTENTION**: This is an _experiment_ to create an application using
+[takes framework](https://github.com/yegor256/takes) and trying to apply OOP
 ideas from [Yegor Bugayenko](http://www.yegor256.com/).
 
 **What does it do?**.
@@ -14,7 +14,7 @@ Expose a service used to compile uploaded LaTeX documents to pdf.
 
 **How to use**.
 
-* Do POST request to &lt;url&gt;/compile/latext 
+* Do POST request to &lt;url&gt;/compile/latex
 * Use only one file at a time
 
 Example:
